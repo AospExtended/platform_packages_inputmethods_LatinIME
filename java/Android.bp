@@ -19,7 +19,7 @@ android_app {
 
     certificate: "shared",
 
-    jni_libs: ["libjni_latinime"],
+    jni_libs: ["libjni_latinimegoogle"],
 
     static_libs: [
         "android-common",
