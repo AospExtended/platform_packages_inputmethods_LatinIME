@@ -144,7 +144,7 @@
         name="SuggestionWord.KLP"
         parent="SuggestionWord"
     >
-        <item name="android:background">@drawable/btn_suggestion_klp</item>
+        <item name="android:background">#764760</item>
         <item name="android:textColor">@color/highlight_color_klp</item>
     </style>
 </resources>

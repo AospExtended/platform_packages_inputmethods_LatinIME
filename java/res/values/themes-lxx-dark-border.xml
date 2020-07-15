@@ -42,11 +42,11 @@
         name="KeyboardView.LXX_Dark_Border"
         parent="KeyboardView.LXX"
         >
-        <item name="android:background">#0d0d0d</item>
+        <item name="android:background">#000</item>
         <item name="keyBackground">@drawable/btn_keyboard_key_lxx_dark_border</item>
         <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_dark_border</item>
         <item name="spacebarBackground">@drawable/btn_keyboard_key_lxx_dark_border</item>
-        <item name="keyTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyTextColor">#FFFFFF</item>
         <item name="keyTextInactivatedColor">@color/key_functional_text_color_lxx_dark</item>
         <item name="functionalTextColor">@color/key_text_color_lxx_dark</item>
         <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_dark</item>
@@ -66,9 +66,9 @@
         <item name="keyPreviewShowUpAnimator">@anim/key_preview_show_up_lxx</item>
         <item name="keyPreviewDismissAnimator">@anim/key_preview_dismiss_lxx</item>
         <item name="gestureFloatingPreviewTextColor">@color/auto_correct_color_lxx_dark</item>
-        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_lxx_dark</item>
-        <item name="gestureTrailColor">@color/gesture_trail_color_lxx_dark</item>
-        <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_dark</item>
+        <item name="gestureFloatingPreviewColor">#E61E1E1E</item>
+        <item name="gestureTrailColor">@*android:color/accent_device_default_dark</item>
+        <item name="slidingKeyInputPreviewColor">@*android:color/accent_device_default_light</item>
         <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
         <!-- A negative value to disable text shadow layer. -->
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
@@ -82,8 +82,8 @@
         parent="MainKeyboardView.LXX_Dark_Border"
         >
         <item name="categoryIndicatorEnabled">false</item>
-        <item name="categoryPageIndicatorColor">@color/highlight_color_lxx_dark</item>
-        <item name="categoryPageIndicatorBackground">@color/emoji_tab_page_indicator_background_lxx_dark</item>
+        <item name="categoryPageIndicatorColor">@*android:color/accent_device_default_dark</item>
+        <item name="categoryPageIndicatorBackground">#000</item>
         <item name="iconEmojiRecentsTab">@drawable/ic_emoji_recents_lxx_dark</item>
         <item name="iconEmojiCategory1Tab">@drawable/ic_emoji_people_lxx_dark</item>
         <item name="iconEmojiCategory2Tab">@drawable/ic_emoji_objects_lxx_dark</item>
@@ -138,7 +138,7 @@
         <item name="centerSuggestionPercentile">@fraction/config_center_suggestion_percentile</item>
         <item name="maxMoreSuggestionsRow">@integer/config_max_more_suggestions_row</item>
         <item name="minMoreSuggestionsWidth">@fraction/config_min_more_suggestions_width</item>
-        <item name="android:background">#0d0d0d</item>
+        <item name="android:background">#000000</item>
         <item name="android:src">@drawable/suggestions_strip_divider_lxx_dark</item>
         <item name="suggestionStripOptions">autoCorrectBold|validTypedWordBold</item>
         <item name="colorValidTypedWord">@color/typed_word_color_lxx_dark</item>
@@ -152,6 +152,6 @@
         parent="SuggestionWord"
         >
         <item name="android:background">@drawable/btn_suggestion_lxx_dark</item>
-        <item name="android:textColor">@color/highlight_color_lxx_dark</item>
+        <item name="android:textColor">@*android:color/accent_device_default_dark</item>
     </style>
 </resources>
